@@ -554,6 +554,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/Country",
                                     "Location",
                                     "Concurrency"
                                 ]
@@ -1540,6 +1545,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/Country",
                                     "Location",
                                     "Concurrency"
                                 ]
@@ -1655,6 +1665,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/Country",
                                     "Location",
                                     "Concurrency"
                                 ]
@@ -2190,6 +2205,11 @@
                                     "Gender",
                                     "Phone",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/Country",
                                     "Photo"
                                 ]
                             }
@@ -2300,6 +2320,11 @@
                                     "Gender",
                                     "Phone",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/Country",
                                     "Photo"
                                 ]
                             }
@@ -2416,6 +2441,11 @@
                                     "Gender",
                                     "Phone",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/Country",
                                     "Photo"
                                 ]
                             }

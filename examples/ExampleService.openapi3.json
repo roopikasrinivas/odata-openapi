@@ -139,8 +139,13 @@
                                     "ContactTitle",
                                     "Fax",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/Region",
+                                    "Address/PostalCode",
                                     "EmailAddresses",
-                                    "Phone"
+                                    "Phone",
+                                    "Phone/Number",
+                                    "Phone/Type"
                                 ]
                             }
                         }
@@ -260,8 +265,13 @@
                                     "ContactTitle",
                                     "Fax",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/Region",
+                                    "Address/PostalCode",
                                     "EmailAddresses",
-                                    "Phone"
+                                    "Phone",
+                                    "Phone/Number",
+                                    "Phone/Type"
                                 ]
                             }
                         }
@@ -414,7 +424,10 @@
                                 "enum": [
                                     "ID",
                                     "Completed",
-                                    "ShippingAddress"
+                                    "ShippingAddress",
+                                    "ShippingAddress/Street",
+                                    "ShippingAddress/Region",
+                                    "ShippingAddress/PostalCode"
                                 ]
                             }
                         }
@@ -717,7 +730,10 @@
                                     "ID",
                                     "Name",
                                     "EmailAddresses",
-                                    "Addresses"
+                                    "Addresses",
+                                    "Addresses/Street",
+                                    "Addresses/Region",
+                                    "Addresses/PostalCode"
                                 ]
                             }
                         }
@@ -830,7 +846,10 @@
                                     "ID",
                                     "Name",
                                     "EmailAddresses",
-                                    "Addresses"
+                                    "Addresses",
+                                    "Addresses/Street",
+                                    "Addresses/Region",
+                                    "Addresses/PostalCode"
                                 ]
                             }
                         }
@@ -1490,7 +1509,10 @@
                                     "ID",
                                     "Name",
                                     "EmailAddresses",
-                                    "Addresses"
+                                    "Addresses",
+                                    "Addresses/Street",
+                                    "Addresses/Region",
+                                    "Addresses/PostalCode"
                                 ]
                             }
                         }
@@ -1909,7 +1931,10 @@
                                 "enum": [
                                     "ID",
                                     "Completed",
-                                    "ShippingAddress"
+                                    "ShippingAddress",
+                                    "ShippingAddress/Street",
+                                    "ShippingAddress/Region",
+                                    "ShippingAddress/PostalCode"
                                 ]
                             }
                         }
@@ -2023,7 +2048,10 @@
                                 "enum": [
                                     "ID",
                                     "Completed",
-                                    "ShippingAddress"
+                                    "ShippingAddress",
+                                    "ShippingAddress/Street",
+                                    "ShippingAddress/Region",
+                                    "ShippingAddress/PostalCode"
                                 ]
                             }
                         }
@@ -2304,8 +2332,13 @@
                                     "ContactTitle",
                                     "Fax",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/Region",
+                                    "Address/PostalCode",
                                     "EmailAddresses",
-                                    "Phone"
+                                    "Phone",
+                                    "Phone/Number",
+                                    "Phone/Type"
                                 ]
                             }
                         }
@@ -3098,7 +3131,10 @@
                                 "enum": [
                                     "ID",
                                     "Completed",
-                                    "ShippingAddress"
+                                    "ShippingAddress",
+                                    "ShippingAddress/Street",
+                                    "ShippingAddress/Region",
+                                    "ShippingAddress/PostalCode"
                                 ]
                             }
                         }
@@ -3760,8 +3796,13 @@
                                     "ContactTitle",
                                     "Fax",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/Region",
+                                    "Address/PostalCode",
                                     "EmailAddresses",
-                                    "Phone"
+                                    "Phone",
+                                    "Phone/Number",
+                                    "Phone/Type"
                                 ]
                             }
                         }

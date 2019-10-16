@@ -403,6 +403,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/CountryName",
                                     "Concurrency"
                                 ]
                             }
@@ -925,6 +930,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/CountryName",
                                     "Concurrency"
                                 ]
                             }
@@ -1038,6 +1048,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/CountryName",
                                     "Concurrency"
                                 ]
                             }
@@ -1306,6 +1321,11 @@
                                     "ID",
                                     "Name",
                                     "Address",
+                                    "Address/Street",
+                                    "Address/City",
+                                    "Address/State",
+                                    "Address/ZipCode",
+                                    "Address/CountryName",
                                     "Concurrency"
                                 ]
                             }

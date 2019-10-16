@@ -323,7 +323,15 @@
                                     "LastName",
                                     "Emails",
                                     "AddressInfo",
+                                    "AddressInfo/Address",
+                                    "AddressInfo/City",
+                                    "AddressInfo/City/CountryRegion",
+                                    "AddressInfo/City/Name",
+                                    "AddressInfo/City/Region",
                                     "Gender",
+                                    "Gender/Male",
+                                    "Gender/Female",
+                                    "Gender/Unknown",
                                     "Concurrency"
                                 ]
                             }
@@ -441,7 +449,15 @@
                                     "LastName",
                                     "Emails",
                                     "AddressInfo",
+                                    "AddressInfo/Address",
+                                    "AddressInfo/City",
+                                    "AddressInfo/City/CountryRegion",
+                                    "AddressInfo/City/Name",
+                                    "AddressInfo/City/Region",
                                     "Gender",
+                                    "Gender/Male",
+                                    "Gender/Female",
+                                    "Gender/Unknown",
                                     "Concurrency"
                                 ]
                             }
@@ -737,7 +753,15 @@
                                     "LastName",
                                     "Emails",
                                     "AddressInfo",
+                                    "AddressInfo/Address",
+                                    "AddressInfo/City",
+                                    "AddressInfo/City/CountryRegion",
+                                    "AddressInfo/City/Name",
+                                    "AddressInfo/City/Region",
                                     "Gender",
+                                    "Gender/Male",
+                                    "Gender/Female",
+                                    "Gender/Unknown",
                                     "Concurrency"
                                 ]
                             }
@@ -1879,7 +1903,8 @@
                                     "IcaoCode",
                                     "Name",
                                     "IataCode",
-                                    "Location"
+                                    "Location",
+                                    "Location/Loc"
                                 ]
                             }
                         }
@@ -1943,7 +1968,8 @@
                                     "IcaoCode",
                                     "Name",
                                     "IataCode",
-                                    "Location"
+                                    "Location",
+                                    "Location/Loc"
                                 ]
                             }
                         }
@@ -2014,7 +2040,15 @@
                                     "LastName",
                                     "Emails",
                                     "AddressInfo",
+                                    "AddressInfo/Address",
+                                    "AddressInfo/City",
+                                    "AddressInfo/City/CountryRegion",
+                                    "AddressInfo/City/Name",
+                                    "AddressInfo/City/Region",
                                     "Gender",
+                                    "Gender/Male",
+                                    "Gender/Female",
+                                    "Gender/Unknown",
                                     "Concurrency"
                                 ]
                             }
@@ -2256,7 +2290,15 @@
                                     "LastName",
                                     "Emails",
                                     "AddressInfo",
+                                    "AddressInfo/Address",
+                                    "AddressInfo/City",
+                                    "AddressInfo/City/CountryRegion",
+                                    "AddressInfo/City/Name",
+                                    "AddressInfo/City/Region",
                                     "Gender",
+                                    "Gender/Male",
+                                    "Gender/Female",
+                                    "Gender/Unknown",
                                     "Concurrency"
                                 ]
                             }

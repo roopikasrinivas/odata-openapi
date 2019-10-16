@@ -74,6 +74,8 @@
                                 "type": "string",
                                 "enum": [
                                     "Info",
+                                    "Info/ID",
+                                    "Info/Created",
                                     "Name"
                                 ]
                             }
@@ -169,6 +171,8 @@
                                 "type": "string",
                                 "enum": [
                                     "Info",
+                                    "Info/ID",
+                                    "Info/Created",
                                     "Name"
                                 ]
                             }
