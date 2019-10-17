@@ -97,9 +97,7 @@
                                     "Customer",
                                     "Time",
                                     "Product",
-                                    "Product/Category",
                                     "SalesOrganization",
-                                    "SalesOrganization/Superordinate",
                                     "Currency"
                                 ]
                             }
@@ -214,9 +212,7 @@
                                     "Customer",
                                     "Time",
                                     "Product",
-                                    "Product/Category",
                                     "SalesOrganization",
-                                    "SalesOrganization/Superordinate",
                                     "Currency"
                                 ]
                             }
@@ -327,13 +323,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales",
-                                    "Sales/Time",
-                                    "Sales/Product",
-                                    "Sales/Product/Category",
-                                    "Sales/SalesOrganization",
-                                    "Sales/SalesOrganization/Superordinate",
-                                    "Sales/Currency"
+                                    "Sales"
                                 ]
                             }
                         }
@@ -461,12 +451,7 @@
                                 "enum": [
                                     "*",
                                     "Category",
-                                    "Sales",
-                                    "Sales/Customer",
-                                    "Sales/Time",
-                                    "Sales/SalesOrganization",
-                                    "Sales/SalesOrganization/Superordinate",
-                                    "Sales/Currency"
+                                    "Sales"
                                 ]
                             }
                         }

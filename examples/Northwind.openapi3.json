@@ -172,17 +172,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products",
-                                    "Products/Order_Details",
-                                    "Products/Order_Details/Order",
-                                    "Products/Order_Details/Order/Customer",
-                                    "Products/Order_Details/Order/Customer/CustomerDemographics",
-                                    "Products/Order_Details/Order/Employee",
-                                    "Products/Order_Details/Order/Employee/Employees1",
-                                    "Products/Order_Details/Order/Employee/Employee1",
-                                    "Products/Order_Details/Order/Employee/Territories",
-                                    "Products/Order_Details/Order/Shipper",
-                                    "Products/Supplier"
+                                    "Products"
                                 ]
                             }
                         }
@@ -296,17 +286,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products",
-                                    "Products/Order_Details",
-                                    "Products/Order_Details/Order",
-                                    "Products/Order_Details/Order/Customer",
-                                    "Products/Order_Details/Order/Customer/CustomerDemographics",
-                                    "Products/Order_Details/Order/Employee",
-                                    "Products/Order_Details/Order/Employee/Employees1",
-                                    "Products/Order_Details/Order/Employee/Employee1",
-                                    "Products/Order_Details/Order/Employee/Territories",
-                                    "Products/Order_Details/Order/Shipper",
-                                    "Products/Supplier"
+                                    "Products"
                                 ]
                             }
                         }
@@ -482,17 +462,6 @@
                                     "*",
                                     "Category",
                                     "Order_Details",
-                                    "Order_Details/Order",
-                                    "Order_Details/Order/Customer",
-                                    "Order_Details/Order/Customer/CustomerDemographics",
-                                    "Order_Details/Order/Employee",
-                                    "Order_Details/Order/Employee/Employees1",
-                                    "Order_Details/Order/Employee/Employees1/Territories",
-                                    "Order_Details/Order/Employee/Employee1",
-                                    "Order_Details/Order/Employee/Employee1/Territories",
-                                    "Order_Details/Order/Employee/Territories",
-                                    "Order_Details/Order/Employee/Territories/Region",
-                                    "Order_Details/Order/Shipper",
                                     "Supplier"
                                 ]
                             }
@@ -633,20 +602,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Customers",
-                                    "Customers/Orders",
-                                    "Customers/Orders/Employee",
-                                    "Customers/Orders/Employee/Employees1",
-                                    "Customers/Orders/Employee/Employees1/Territories",
-                                    "Customers/Orders/Employee/Employee1",
-                                    "Customers/Orders/Employee/Employee1/Territories",
-                                    "Customers/Orders/Employee/Territories",
-                                    "Customers/Orders/Employee/Territories/Region",
-                                    "Customers/Orders/Order_Details",
-                                    "Customers/Orders/Order_Details/Product",
-                                    "Customers/Orders/Order_Details/Product/Category",
-                                    "Customers/Orders/Order_Details/Product/Supplier",
-                                    "Customers/Orders/Shipper"
+                                    "Customers"
                                 ]
                             }
                         }
@@ -758,20 +714,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Customers",
-                                    "Customers/Orders",
-                                    "Customers/Orders/Employee",
-                                    "Customers/Orders/Employee/Employees1",
-                                    "Customers/Orders/Employee/Employees1/Territories",
-                                    "Customers/Orders/Employee/Employee1",
-                                    "Customers/Orders/Employee/Employee1/Territories",
-                                    "Customers/Orders/Employee/Territories",
-                                    "Customers/Orders/Employee/Territories/Region",
-                                    "Customers/Orders/Order_Details",
-                                    "Customers/Orders/Order_Details/Product",
-                                    "Customers/Orders/Order_Details/Product/Category",
-                                    "Customers/Orders/Order_Details/Product/Supplier",
-                                    "Customers/Orders/Shipper"
+                                    "Customers"
                                 ]
                             }
                         }
@@ -949,20 +892,6 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
                                     "CustomerDemographics"
                                 ]
                             }
@@ -1131,20 +1060,6 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
                                     "CustomerDemographics"
                                 ]
                             }
@@ -1267,20 +1182,6 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
                                     "CustomerDemographics"
                                 ]
                             }
@@ -1468,20 +1369,8 @@
                                 "enum": [
                                     "*",
                                     "Customer",
-                                    "Customer/CustomerDemographics",
                                     "Employee",
-                                    "Employee/Employees1",
-                                    "Employee/Employees1/Territories",
-                                    "Employee/Employees1/Territories/Region",
-                                    "Employee/Employee1",
-                                    "Employee/Employee1/Territories",
-                                    "Employee/Employee1/Territories/Region",
-                                    "Employee/Territories",
-                                    "Employee/Territories/Region",
                                     "Order_Details",
-                                    "Order_Details/Product",
-                                    "Order_Details/Product/Category",
-                                    "Order_Details/Product/Supplier",
                                     "Shipper"
                                 ]
                             }
@@ -1635,20 +1524,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Customers",
-                                    "Customers/Orders",
-                                    "Customers/Orders/Employee",
-                                    "Customers/Orders/Employee/Employees1",
-                                    "Customers/Orders/Employee/Employees1/Territories",
-                                    "Customers/Orders/Employee/Employee1",
-                                    "Customers/Orders/Employee/Employee1/Territories",
-                                    "Customers/Orders/Employee/Territories",
-                                    "Customers/Orders/Employee/Territories/Region",
-                                    "Customers/Orders/Order_Details",
-                                    "Customers/Orders/Order_Details/Product",
-                                    "Customers/Orders/Order_Details/Product/Category",
-                                    "Customers/Orders/Order_Details/Product/Supplier",
-                                    "Customers/Orders/Shipper"
+                                    "Customers"
                                 ]
                             }
                         }
@@ -1837,37 +1713,9 @@
                                 "enum": [
                                     "*",
                                     "Employees1",
-                                    "Employees1/Orders",
-                                    "Employees1/Orders/Customer",
-                                    "Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees1/Orders/Order_Details",
-                                    "Employees1/Orders/Order_Details/Product",
-                                    "Employees1/Orders/Order_Details/Product/Category",
-                                    "Employees1/Orders/Order_Details/Product/Supplier",
-                                    "Employees1/Orders/Shipper",
-                                    "Employees1/Territories",
-                                    "Employees1/Territories/Region",
                                     "Employee1",
-                                    "Employee1/Orders",
-                                    "Employee1/Orders/Customer",
-                                    "Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employee1/Orders/Order_Details",
-                                    "Employee1/Orders/Order_Details/Product",
-                                    "Employee1/Orders/Order_Details/Product/Category",
-                                    "Employee1/Orders/Order_Details/Product/Supplier",
-                                    "Employee1/Orders/Shipper",
-                                    "Employee1/Territories",
-                                    "Employee1/Territories/Region",
                                     "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
-                                    "Territories",
-                                    "Territories/Region"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -1996,37 +1844,9 @@
                                 "enum": [
                                     "*",
                                     "Employees1",
-                                    "Employees1/Orders",
-                                    "Employees1/Orders/Customer",
-                                    "Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees1/Orders/Order_Details",
-                                    "Employees1/Orders/Order_Details/Product",
-                                    "Employees1/Orders/Order_Details/Product/Category",
-                                    "Employees1/Orders/Order_Details/Product/Supplier",
-                                    "Employees1/Orders/Shipper",
-                                    "Employees1/Territories",
-                                    "Employees1/Territories/Region",
                                     "Employee1",
-                                    "Employee1/Orders",
-                                    "Employee1/Orders/Customer",
-                                    "Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employee1/Orders/Order_Details",
-                                    "Employee1/Orders/Order_Details/Product",
-                                    "Employee1/Orders/Order_Details/Product/Category",
-                                    "Employee1/Orders/Order_Details/Product/Supplier",
-                                    "Employee1/Orders/Shipper",
-                                    "Employee1/Territories",
-                                    "Employee1/Territories/Region",
                                     "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
-                                    "Territories",
-                                    "Territories/Region"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -2224,37 +2044,9 @@
                                 "enum": [
                                     "*",
                                     "Employees1",
-                                    "Employees1/Orders",
-                                    "Employees1/Orders/Customer",
-                                    "Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees1/Orders/Order_Details",
-                                    "Employees1/Orders/Order_Details/Product",
-                                    "Employees1/Orders/Order_Details/Product/Category",
-                                    "Employees1/Orders/Order_Details/Product/Supplier",
-                                    "Employees1/Orders/Shipper",
-                                    "Employees1/Territories",
-                                    "Employees1/Territories/Region",
                                     "Employee1",
-                                    "Employee1/Orders",
-                                    "Employee1/Orders/Customer",
-                                    "Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employee1/Orders/Order_Details",
-                                    "Employee1/Orders/Order_Details/Product",
-                                    "Employee1/Orders/Order_Details/Product/Category",
-                                    "Employee1/Orders/Order_Details/Product/Supplier",
-                                    "Employee1/Orders/Shipper",
-                                    "Employee1/Territories",
-                                    "Employee1/Territories/Region",
                                     "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
-                                    "Territories",
-                                    "Territories/Region"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -2383,37 +2175,9 @@
                                 "enum": [
                                     "*",
                                     "Employees1",
-                                    "Employees1/Orders",
-                                    "Employees1/Orders/Customer",
-                                    "Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees1/Orders/Order_Details",
-                                    "Employees1/Orders/Order_Details/Product",
-                                    "Employees1/Orders/Order_Details/Product/Category",
-                                    "Employees1/Orders/Order_Details/Product/Supplier",
-                                    "Employees1/Orders/Shipper",
-                                    "Employees1/Territories",
-                                    "Employees1/Territories/Region",
                                     "Employee1",
-                                    "Employee1/Orders",
-                                    "Employee1/Orders/Customer",
-                                    "Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employee1/Orders/Order_Details",
-                                    "Employee1/Orders/Order_Details/Product",
-                                    "Employee1/Orders/Order_Details/Product/Category",
-                                    "Employee1/Orders/Order_Details/Product/Supplier",
-                                    "Employee1/Orders/Shipper",
-                                    "Employee1/Territories",
-                                    "Employee1/Territories/Region",
                                     "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
-                                    "Territories",
-                                    "Territories/Region"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -2561,20 +2325,8 @@
                                 "enum": [
                                     "*",
                                     "Customer",
-                                    "Customer/CustomerDemographics",
                                     "Employee",
-                                    "Employee/Employees1",
-                                    "Employee/Employees1/Territories",
-                                    "Employee/Employees1/Territories/Region",
-                                    "Employee/Employee1",
-                                    "Employee/Employee1/Territories",
-                                    "Employee/Employee1/Territories/Region",
-                                    "Employee/Territories",
-                                    "Employee/Territories/Region",
                                     "Order_Details",
-                                    "Order_Details/Product",
-                                    "Order_Details/Product/Category",
-                                    "Order_Details/Product/Supplier",
                                     "Shipper"
                                 ]
                             }
@@ -2732,29 +2484,7 @@
                                 "enum": [
                                     "*",
                                     "Region",
-                                    "Employees",
-                                    "Employees/Employees1",
-                                    "Employees/Employees1/Orders",
-                                    "Employees/Employees1/Orders/Customer",
-                                    "Employees/Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employees1/Orders/Order_Details",
-                                    "Employees/Employees1/Orders/Order_Details/Product",
-                                    "Employees/Employees1/Orders/Shipper",
-                                    "Employees/Employee1",
-                                    "Employees/Employee1/Orders",
-                                    "Employees/Employee1/Orders/Customer",
-                                    "Employees/Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employee1/Orders/Order_Details",
-                                    "Employees/Employee1/Orders/Order_Details/Product",
-                                    "Employees/Employee1/Orders/Shipper",
-                                    "Employees/Orders",
-                                    "Employees/Orders/Customer",
-                                    "Employees/Orders/Customer/CustomerDemographics",
-                                    "Employees/Orders/Order_Details",
-                                    "Employees/Orders/Order_Details/Product",
-                                    "Employees/Orders/Order_Details/Product/Category",
-                                    "Employees/Orders/Order_Details/Product/Supplier",
-                                    "Employees/Orders/Shipper"
+                                    "Employees"
                                 ]
                             }
                         }
@@ -2904,21 +2634,7 @@
                                 "enum": [
                                     "*",
                                     "Order",
-                                    "Order/Customer",
-                                    "Order/Customer/CustomerDemographics",
-                                    "Order/Employee",
-                                    "Order/Employee/Employees1",
-                                    "Order/Employee/Employees1/Territories",
-                                    "Order/Employee/Employees1/Territories/Region",
-                                    "Order/Employee/Employee1",
-                                    "Order/Employee/Employee1/Territories",
-                                    "Order/Employee/Employee1/Territories/Region",
-                                    "Order/Employee/Territories",
-                                    "Order/Employee/Territories/Region",
-                                    "Order/Shipper",
-                                    "Product",
-                                    "Product/Category",
-                                    "Product/Supplier"
+                                    "Product"
                                 ]
                             }
                         }
@@ -3044,21 +2760,7 @@
                                 "enum": [
                                     "*",
                                     "Order",
-                                    "Order/Customer",
-                                    "Order/Customer/CustomerDemographics",
-                                    "Order/Employee",
-                                    "Order/Employee/Employees1",
-                                    "Order/Employee/Employees1/Territories",
-                                    "Order/Employee/Employees1/Territories/Region",
-                                    "Order/Employee/Employee1",
-                                    "Order/Employee/Employee1/Territories",
-                                    "Order/Employee/Employee1/Territories/Region",
-                                    "Order/Employee/Territories",
-                                    "Order/Employee/Territories/Region",
-                                    "Order/Shipper",
-                                    "Product",
-                                    "Product/Category",
-                                    "Product/Supplier"
+                                    "Product"
                                 ]
                             }
                         }
@@ -3192,20 +2894,8 @@
                                 "enum": [
                                     "*",
                                     "Customer",
-                                    "Customer/CustomerDemographics",
                                     "Employee",
-                                    "Employee/Employees1",
-                                    "Employee/Employees1/Territories",
-                                    "Employee/Employees1/Territories/Region",
-                                    "Employee/Employee1",
-                                    "Employee/Employee1/Territories",
-                                    "Employee/Employee1/Territories/Region",
-                                    "Employee/Territories",
-                                    "Employee/Territories/Region",
                                     "Order_Details",
-                                    "Order_Details/Product",
-                                    "Order_Details/Product/Category",
-                                    "Order_Details/Product/Supplier",
                                     "Shipper"
                                 ]
                             }
@@ -3298,17 +2988,6 @@
                                     "*",
                                     "Category",
                                     "Order_Details",
-                                    "Order_Details/Order",
-                                    "Order_Details/Order/Customer",
-                                    "Order_Details/Order/Customer/CustomerDemographics",
-                                    "Order_Details/Order/Employee",
-                                    "Order_Details/Order/Employee/Employees1",
-                                    "Order_Details/Order/Employee/Employees1/Territories",
-                                    "Order_Details/Order/Employee/Employee1",
-                                    "Order_Details/Order/Employee/Employee1/Territories",
-                                    "Order_Details/Order/Employee/Territories",
-                                    "Order_Details/Order/Employee/Territories/Region",
-                                    "Order_Details/Order/Shipper",
                                     "Supplier"
                                 ]
                             }
@@ -3444,20 +3123,8 @@
                                 "enum": [
                                     "*",
                                     "Customer",
-                                    "Customer/CustomerDemographics",
                                     "Employee",
-                                    "Employee/Employees1",
-                                    "Employee/Employees1/Territories",
-                                    "Employee/Employees1/Territories/Region",
-                                    "Employee/Employee1",
-                                    "Employee/Employee1/Territories",
-                                    "Employee/Employee1/Territories/Region",
-                                    "Employee/Territories",
-                                    "Employee/Territories/Region",
                                     "Order_Details",
-                                    "Order_Details/Product",
-                                    "Order_Details/Product/Category",
-                                    "Order_Details/Product/Supplier",
                                     "Shipper"
                                 ]
                             }
@@ -3583,20 +3250,8 @@
                                 "enum": [
                                     "*",
                                     "Customer",
-                                    "Customer/CustomerDemographics",
                                     "Employee",
-                                    "Employee/Employees1",
-                                    "Employee/Employees1/Territories",
-                                    "Employee/Employees1/Territories/Region",
-                                    "Employee/Employee1",
-                                    "Employee/Employee1/Territories",
-                                    "Employee/Employee1/Territories/Region",
-                                    "Employee/Territories",
-                                    "Employee/Territories/Region",
                                     "Order_Details",
-                                    "Order_Details/Product",
-                                    "Order_Details/Product/Category",
-                                    "Order_Details/Product/Supplier",
                                     "Shipper"
                                 ]
                             }
@@ -3718,20 +3373,6 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
                                     "CustomerDemographics"
                                 ]
                             }
@@ -3821,37 +3462,9 @@
                                 "enum": [
                                     "*",
                                     "Employees1",
-                                    "Employees1/Orders",
-                                    "Employees1/Orders/Customer",
-                                    "Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees1/Orders/Order_Details",
-                                    "Employees1/Orders/Order_Details/Product",
-                                    "Employees1/Orders/Order_Details/Product/Category",
-                                    "Employees1/Orders/Order_Details/Product/Supplier",
-                                    "Employees1/Orders/Shipper",
-                                    "Employees1/Territories",
-                                    "Employees1/Territories/Region",
                                     "Employee1",
-                                    "Employee1/Orders",
-                                    "Employee1/Orders/Customer",
-                                    "Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employee1/Orders/Order_Details",
-                                    "Employee1/Orders/Order_Details/Product",
-                                    "Employee1/Orders/Order_Details/Product/Category",
-                                    "Employee1/Orders/Order_Details/Product/Supplier",
-                                    "Employee1/Orders/Shipper",
-                                    "Employee1/Territories",
-                                    "Employee1/Territories/Region",
                                     "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
-                                    "Territories",
-                                    "Territories/Region"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -3972,21 +3585,7 @@
                                 "enum": [
                                     "*",
                                     "Order",
-                                    "Order/Customer",
-                                    "Order/Customer/CustomerDemographics",
-                                    "Order/Employee",
-                                    "Order/Employee/Employees1",
-                                    "Order/Employee/Employees1/Territories",
-                                    "Order/Employee/Employees1/Territories/Region",
-                                    "Order/Employee/Employee1",
-                                    "Order/Employee/Employee1/Territories",
-                                    "Order/Employee/Employee1/Territories/Region",
-                                    "Order/Employee/Territories",
-                                    "Order/Employee/Territories/Region",
-                                    "Order/Shipper",
-                                    "Product",
-                                    "Product/Category",
-                                    "Product/Supplier"
+                                    "Product"
                                 ]
                             }
                         }
@@ -4101,22 +3700,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier"
+                                    "Orders"
                                 ]
                             }
                         }
@@ -4240,17 +3824,6 @@
                                     "*",
                                     "Category",
                                     "Order_Details",
-                                    "Order_Details/Order",
-                                    "Order_Details/Order/Customer",
-                                    "Order_Details/Order/Customer/CustomerDemographics",
-                                    "Order_Details/Order/Employee",
-                                    "Order_Details/Order/Employee/Employees1",
-                                    "Order_Details/Order/Employee/Employees1/Territories",
-                                    "Order_Details/Order/Employee/Employee1",
-                                    "Order_Details/Order/Employee/Employee1/Territories",
-                                    "Order_Details/Order/Employee/Territories",
-                                    "Order_Details/Order/Employee/Territories/Region",
-                                    "Order_Details/Order/Shipper",
                                     "Supplier"
                                 ]
                             }
@@ -4373,17 +3946,6 @@
                                     "*",
                                     "Category",
                                     "Order_Details",
-                                    "Order_Details/Order",
-                                    "Order_Details/Order/Customer",
-                                    "Order_Details/Order/Customer/CustomerDemographics",
-                                    "Order_Details/Order/Employee",
-                                    "Order_Details/Order/Employee/Employees1",
-                                    "Order_Details/Order/Employee/Employees1/Territories",
-                                    "Order_Details/Order/Employee/Employee1",
-                                    "Order_Details/Order/Employee/Employee1/Territories",
-                                    "Order_Details/Order/Employee/Territories",
-                                    "Order_Details/Order/Employee/Territories/Region",
-                                    "Order_Details/Order/Shipper",
                                     "Supplier"
                                 ]
                             }
@@ -4497,17 +4059,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products",
-                                    "Products/Order_Details",
-                                    "Products/Order_Details/Order",
-                                    "Products/Order_Details/Order/Customer",
-                                    "Products/Order_Details/Order/Customer/CustomerDemographics",
-                                    "Products/Order_Details/Order/Employee",
-                                    "Products/Order_Details/Order/Employee/Employees1",
-                                    "Products/Order_Details/Order/Employee/Employee1",
-                                    "Products/Order_Details/Order/Employee/Territories",
-                                    "Products/Order_Details/Order/Shipper",
-                                    "Products/Supplier"
+                                    "Products"
                                 ]
                             }
                         }
@@ -4628,21 +4180,7 @@
                                 "enum": [
                                     "*",
                                     "Order",
-                                    "Order/Customer",
-                                    "Order/Customer/CustomerDemographics",
-                                    "Order/Employee",
-                                    "Order/Employee/Employees1",
-                                    "Order/Employee/Employees1/Territories",
-                                    "Order/Employee/Employees1/Territories/Region",
-                                    "Order/Employee/Employee1",
-                                    "Order/Employee/Employee1/Territories",
-                                    "Order/Employee/Employee1/Territories/Region",
-                                    "Order/Employee/Territories",
-                                    "Order/Employee/Territories/Region",
-                                    "Order/Shipper",
-                                    "Product",
-                                    "Product/Category",
-                                    "Product/Supplier"
+                                    "Product"
                                 ]
                             }
                         }
@@ -4766,17 +4304,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products",
-                                    "Products/Category",
-                                    "Products/Order_Details",
-                                    "Products/Order_Details/Order",
-                                    "Products/Order_Details/Order/Customer",
-                                    "Products/Order_Details/Order/Customer/CustomerDemographics",
-                                    "Products/Order_Details/Order/Employee",
-                                    "Products/Order_Details/Order/Employee/Employees1",
-                                    "Products/Order_Details/Order/Employee/Employee1",
-                                    "Products/Order_Details/Order/Employee/Territories",
-                                    "Products/Order_Details/Order/Shipper"
+                                    "Products"
                                 ]
                             }
                         }
@@ -4874,24 +4402,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Territories",
-                                    "Territories/Employees",
-                                    "Territories/Employees/Employees1",
-                                    "Territories/Employees/Employees1/Orders",
-                                    "Territories/Employees/Employees1/Orders/Customer",
-                                    "Territories/Employees/Employees1/Orders/Order_Details",
-                                    "Territories/Employees/Employees1/Orders/Shipper",
-                                    "Territories/Employees/Employee1",
-                                    "Territories/Employees/Employee1/Orders",
-                                    "Territories/Employees/Employee1/Orders/Customer",
-                                    "Territories/Employees/Employee1/Orders/Order_Details",
-                                    "Territories/Employees/Employee1/Orders/Shipper",
-                                    "Territories/Employees/Orders",
-                                    "Territories/Employees/Orders/Customer",
-                                    "Territories/Employees/Orders/Customer/CustomerDemographics",
-                                    "Territories/Employees/Orders/Order_Details",
-                                    "Territories/Employees/Orders/Order_Details/Product",
-                                    "Territories/Employees/Orders/Shipper"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -5003,24 +4514,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Territories",
-                                    "Territories/Employees",
-                                    "Territories/Employees/Employees1",
-                                    "Territories/Employees/Employees1/Orders",
-                                    "Territories/Employees/Employees1/Orders/Customer",
-                                    "Territories/Employees/Employees1/Orders/Order_Details",
-                                    "Territories/Employees/Employees1/Orders/Shipper",
-                                    "Territories/Employees/Employee1",
-                                    "Territories/Employees/Employee1/Orders",
-                                    "Territories/Employees/Employee1/Orders/Customer",
-                                    "Territories/Employees/Employee1/Orders/Order_Details",
-                                    "Territories/Employees/Employee1/Orders/Shipper",
-                                    "Territories/Employees/Orders",
-                                    "Territories/Employees/Orders/Customer",
-                                    "Territories/Employees/Orders/Customer/CustomerDemographics",
-                                    "Territories/Employees/Orders/Order_Details",
-                                    "Territories/Employees/Orders/Order_Details/Product",
-                                    "Territories/Employees/Orders/Shipper"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -5174,29 +4668,7 @@
                                 "enum": [
                                     "*",
                                     "Region",
-                                    "Employees",
-                                    "Employees/Employees1",
-                                    "Employees/Employees1/Orders",
-                                    "Employees/Employees1/Orders/Customer",
-                                    "Employees/Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employees1/Orders/Order_Details",
-                                    "Employees/Employees1/Orders/Order_Details/Product",
-                                    "Employees/Employees1/Orders/Shipper",
-                                    "Employees/Employee1",
-                                    "Employees/Employee1/Orders",
-                                    "Employees/Employee1/Orders/Customer",
-                                    "Employees/Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employee1/Orders/Order_Details",
-                                    "Employees/Employee1/Orders/Order_Details/Product",
-                                    "Employees/Employee1/Orders/Shipper",
-                                    "Employees/Orders",
-                                    "Employees/Orders/Customer",
-                                    "Employees/Orders/Customer/CustomerDemographics",
-                                    "Employees/Orders/Order_Details",
-                                    "Employees/Orders/Order_Details/Product",
-                                    "Employees/Orders/Order_Details/Product/Category",
-                                    "Employees/Orders/Order_Details/Product/Supplier",
-                                    "Employees/Orders/Shipper"
+                                    "Employees"
                                 ]
                             }
                         }
@@ -5339,22 +4811,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier"
+                                    "Orders"
                                 ]
                             }
                         }
@@ -5467,22 +4924,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Employee",
-                                    "Orders/Employee/Employees1",
-                                    "Orders/Employee/Employees1/Territories",
-                                    "Orders/Employee/Employees1/Territories/Region",
-                                    "Orders/Employee/Employee1",
-                                    "Orders/Employee/Employee1/Territories",
-                                    "Orders/Employee/Employee1/Territories/Region",
-                                    "Orders/Employee/Territories",
-                                    "Orders/Employee/Territories/Region",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier"
+                                    "Orders"
                                 ]
                             }
                         }
@@ -5669,20 +5111,8 @@
                                 "enum": [
                                     "*",
                                     "Customer",
-                                    "Customer/CustomerDemographics",
                                     "Employee",
-                                    "Employee/Employees1",
-                                    "Employee/Employees1/Territories",
-                                    "Employee/Employees1/Territories/Region",
-                                    "Employee/Employee1",
-                                    "Employee/Employee1/Territories",
-                                    "Employee/Employee1/Territories/Region",
-                                    "Employee/Territories",
-                                    "Employee/Territories/Region",
                                     "Order_Details",
-                                    "Order_Details/Product",
-                                    "Order_Details/Product/Category",
-                                    "Order_Details/Product/Supplier",
                                     "Shipper"
                                 ]
                             }
@@ -5853,17 +5283,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products",
-                                    "Products/Category",
-                                    "Products/Order_Details",
-                                    "Products/Order_Details/Order",
-                                    "Products/Order_Details/Order/Customer",
-                                    "Products/Order_Details/Order/Customer/CustomerDemographics",
-                                    "Products/Order_Details/Order/Employee",
-                                    "Products/Order_Details/Order/Employee/Employees1",
-                                    "Products/Order_Details/Order/Employee/Employee1",
-                                    "Products/Order_Details/Order/Employee/Territories",
-                                    "Products/Order_Details/Order/Shipper"
+                                    "Products"
                                 ]
                             }
                         }
@@ -5985,17 +5405,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products",
-                                    "Products/Category",
-                                    "Products/Order_Details",
-                                    "Products/Order_Details/Order",
-                                    "Products/Order_Details/Order/Customer",
-                                    "Products/Order_Details/Order/Customer/CustomerDemographics",
-                                    "Products/Order_Details/Order/Employee",
-                                    "Products/Order_Details/Order/Employee/Employees1",
-                                    "Products/Order_Details/Order/Employee/Employee1",
-                                    "Products/Order_Details/Order/Employee/Territories",
-                                    "Products/Order_Details/Order/Shipper"
+                                    "Products"
                                 ]
                             }
                         }
@@ -6171,17 +5581,6 @@
                                     "*",
                                     "Category",
                                     "Order_Details",
-                                    "Order_Details/Order",
-                                    "Order_Details/Order/Customer",
-                                    "Order_Details/Order/Customer/CustomerDemographics",
-                                    "Order_Details/Order/Employee",
-                                    "Order_Details/Order/Employee/Employees1",
-                                    "Order_Details/Order/Employee/Employees1/Territories",
-                                    "Order_Details/Order/Employee/Employee1",
-                                    "Order_Details/Order/Employee/Employee1/Territories",
-                                    "Order_Details/Order/Employee/Territories",
-                                    "Order_Details/Order/Employee/Territories/Region",
-                                    "Order_Details/Order/Shipper",
                                     "Supplier"
                                 ]
                             }
@@ -6326,29 +5725,7 @@
                                 "enum": [
                                     "*",
                                     "Region",
-                                    "Employees",
-                                    "Employees/Employees1",
-                                    "Employees/Employees1/Orders",
-                                    "Employees/Employees1/Orders/Customer",
-                                    "Employees/Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employees1/Orders/Order_Details",
-                                    "Employees/Employees1/Orders/Order_Details/Product",
-                                    "Employees/Employees1/Orders/Shipper",
-                                    "Employees/Employee1",
-                                    "Employees/Employee1/Orders",
-                                    "Employees/Employee1/Orders/Customer",
-                                    "Employees/Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employee1/Orders/Order_Details",
-                                    "Employees/Employee1/Orders/Order_Details/Product",
-                                    "Employees/Employee1/Orders/Shipper",
-                                    "Employees/Orders",
-                                    "Employees/Orders/Customer",
-                                    "Employees/Orders/Customer/CustomerDemographics",
-                                    "Employees/Orders/Order_Details",
-                                    "Employees/Orders/Order_Details/Product",
-                                    "Employees/Orders/Order_Details/Product/Category",
-                                    "Employees/Orders/Order_Details/Product/Supplier",
-                                    "Employees/Orders/Shipper"
+                                    "Employees"
                                 ]
                             }
                         }
@@ -6462,29 +5839,7 @@
                                 "enum": [
                                     "*",
                                     "Region",
-                                    "Employees",
-                                    "Employees/Employees1",
-                                    "Employees/Employees1/Orders",
-                                    "Employees/Employees1/Orders/Customer",
-                                    "Employees/Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employees1/Orders/Order_Details",
-                                    "Employees/Employees1/Orders/Order_Details/Product",
-                                    "Employees/Employees1/Orders/Shipper",
-                                    "Employees/Employee1",
-                                    "Employees/Employee1/Orders",
-                                    "Employees/Employee1/Orders/Customer",
-                                    "Employees/Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employees/Employee1/Orders/Order_Details",
-                                    "Employees/Employee1/Orders/Order_Details/Product",
-                                    "Employees/Employee1/Orders/Shipper",
-                                    "Employees/Orders",
-                                    "Employees/Orders/Customer",
-                                    "Employees/Orders/Customer/CustomerDemographics",
-                                    "Employees/Orders/Order_Details",
-                                    "Employees/Orders/Order_Details/Product",
-                                    "Employees/Orders/Order_Details/Product/Category",
-                                    "Employees/Orders/Order_Details/Product/Supplier",
-                                    "Employees/Orders/Shipper"
+                                    "Employees"
                                 ]
                             }
                         }
@@ -6595,24 +5950,7 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Territories",
-                                    "Territories/Employees",
-                                    "Territories/Employees/Employees1",
-                                    "Territories/Employees/Employees1/Orders",
-                                    "Territories/Employees/Employees1/Orders/Customer",
-                                    "Territories/Employees/Employees1/Orders/Order_Details",
-                                    "Territories/Employees/Employees1/Orders/Shipper",
-                                    "Territories/Employees/Employee1",
-                                    "Territories/Employees/Employee1/Orders",
-                                    "Territories/Employees/Employee1/Orders/Customer",
-                                    "Territories/Employees/Employee1/Orders/Order_Details",
-                                    "Territories/Employees/Employee1/Orders/Shipper",
-                                    "Territories/Employees/Orders",
-                                    "Territories/Employees/Orders/Customer",
-                                    "Territories/Employees/Orders/Customer/CustomerDemographics",
-                                    "Territories/Employees/Orders/Order_Details",
-                                    "Territories/Employees/Orders/Order_Details/Product",
-                                    "Territories/Employees/Orders/Shipper"
+                                    "Territories"
                                 ]
                             }
                         }
@@ -6772,37 +6110,9 @@
                                 "enum": [
                                     "*",
                                     "Employees1",
-                                    "Employees1/Orders",
-                                    "Employees1/Orders/Customer",
-                                    "Employees1/Orders/Customer/CustomerDemographics",
-                                    "Employees1/Orders/Order_Details",
-                                    "Employees1/Orders/Order_Details/Product",
-                                    "Employees1/Orders/Order_Details/Product/Category",
-                                    "Employees1/Orders/Order_Details/Product/Supplier",
-                                    "Employees1/Orders/Shipper",
-                                    "Employees1/Territories",
-                                    "Employees1/Territories/Region",
                                     "Employee1",
-                                    "Employee1/Orders",
-                                    "Employee1/Orders/Customer",
-                                    "Employee1/Orders/Customer/CustomerDemographics",
-                                    "Employee1/Orders/Order_Details",
-                                    "Employee1/Orders/Order_Details/Product",
-                                    "Employee1/Orders/Order_Details/Product/Category",
-                                    "Employee1/Orders/Order_Details/Product/Supplier",
-                                    "Employee1/Orders/Shipper",
-                                    "Employee1/Territories",
-                                    "Employee1/Territories/Region",
                                     "Orders",
-                                    "Orders/Customer",
-                                    "Orders/Customer/CustomerDemographics",
-                                    "Orders/Order_Details",
-                                    "Orders/Order_Details/Product",
-                                    "Orders/Order_Details/Product/Category",
-                                    "Orders/Order_Details/Product/Supplier",
-                                    "Orders/Shipper",
-                                    "Territories",
-                                    "Territories/Region"
+                                    "Territories"
                                 ]
                             }
                         }
