@@ -348,7 +348,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Supplier"
                                 ]
                             }
                         }
@@ -425,7 +426,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category"
                                 ]
                             }
                         }
@@ -523,7 +525,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Supplier"
                                 ]
                             }
                         }
@@ -635,7 +638,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Supplier"
                                 ]
                             }
                         }
@@ -952,7 +956,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category"
                                 ]
                             }
                         }
@@ -1070,7 +1075,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category"
                                 ]
                             }
                         }
@@ -1343,7 +1349,8 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category"
                                 ]
                             }
                         }

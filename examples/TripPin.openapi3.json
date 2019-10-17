@@ -350,7 +350,13 @@
                                 "enum": [
                                     "*",
                                     "Friends",
+                                    "Friends/Trips",
+                                    "Friends/Trips/Photos",
+                                    "Friends/Trips/PlanItems",
+                                    "Friends/Photo",
                                     "Trips",
+                                    "Trips/Photos",
+                                    "Trips/PlanItems",
                                     "Photo"
                                 ]
                             }
@@ -476,7 +482,13 @@
                                 "enum": [
                                     "*",
                                     "Friends",
+                                    "Friends/Trips",
+                                    "Friends/Trips/Photos",
+                                    "Friends/Trips/PlanItems",
+                                    "Friends/Photo",
                                     "Trips",
+                                    "Trips/Photos",
+                                    "Trips/PlanItems",
                                     "Photo"
                                 ]
                             }
@@ -780,7 +792,13 @@
                                 "enum": [
                                     "*",
                                     "Friends",
+                                    "Friends/Trips",
+                                    "Friends/Trips/Photos",
+                                    "Friends/Trips/PlanItems",
+                                    "Friends/Photo",
                                     "Trips",
+                                    "Trips/Photos",
+                                    "Trips/PlanItems",
                                     "Photo"
                                 ]
                             }
@@ -2067,7 +2085,13 @@
                                 "enum": [
                                     "*",
                                     "Friends",
+                                    "Friends/Trips",
+                                    "Friends/Trips/Photos",
+                                    "Friends/Trips/PlanItems",
+                                    "Friends/Photo",
                                     "Trips",
+                                    "Trips/Photos",
+                                    "Trips/PlanItems",
                                     "Photo"
                                 ]
                             }
@@ -2317,7 +2341,13 @@
                                 "enum": [
                                     "*",
                                     "Friends",
+                                    "Friends/Trips",
+                                    "Friends/Trips/Photos",
+                                    "Friends/Trips/PlanItems",
+                                    "Friends/Photo",
                                     "Trips",
+                                    "Trips/Photos",
+                                    "Trips/PlanItems",
                                     "Photo"
                                 ]
                             }

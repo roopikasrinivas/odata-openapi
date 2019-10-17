@@ -163,7 +163,30 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Sales"
+                                    "Orders/Items",
+                                    "Orders/Items/Product",
+                                    "Orders/Items/Product/Category",
+                                    "Orders/Items/Product/Supplier",
+                                    "Orders/Items/Product/Sales",
+                                    "Orders/Items/Product/Sales/Time",
+                                    "Orders/Items/Product/Sales/Currency",
+                                    "Orders/Items/Product/Sales/SalesOrganization",
+                                    "Orders/Items/Currency",
+                                    "Orders/Items/Currency/Sales",
+                                    "Orders/Items/Currency/Sales/Time",
+                                    "Orders/Items/Currency/Sales/SalesOrganization",
+                                    "Orders/Items/Currency/Sales/Product",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -289,7 +312,30 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Sales"
+                                    "Orders/Items",
+                                    "Orders/Items/Product",
+                                    "Orders/Items/Product/Category",
+                                    "Orders/Items/Product/Supplier",
+                                    "Orders/Items/Product/Sales",
+                                    "Orders/Items/Product/Sales/Time",
+                                    "Orders/Items/Product/Sales/Currency",
+                                    "Orders/Items/Product/Sales/SalesOrganization",
+                                    "Orders/Items/Currency",
+                                    "Orders/Items/Currency/Sales",
+                                    "Orders/Items/Currency/Sales/Time",
+                                    "Orders/Items/Currency/Sales/SalesOrganization",
+                                    "Orders/Items/Currency/Sales/Product",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -445,7 +491,35 @@
                                 "enum": [
                                     "*",
                                     "Items",
-                                    "Customer"
+                                    "Items/Product",
+                                    "Items/Product/Category",
+                                    "Items/Product/Supplier",
+                                    "Items/Product/Sales",
+                                    "Items/Product/Sales/Time",
+                                    "Items/Product/Sales/Currency",
+                                    "Items/Product/Sales/Customer",
+                                    "Items/Product/Sales/SalesOrganization",
+                                    "Items/Product/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency",
+                                    "Items/Currency/Sales",
+                                    "Items/Currency/Sales/Time",
+                                    "Items/Currency/Sales/Customer",
+                                    "Items/Currency/Sales/SalesOrganization",
+                                    "Items/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency/Sales/Product",
+                                    "Items/Currency/Sales/Product/Category",
+                                    "Items/Currency/Sales/Product/Supplier",
+                                    "Customer",
+                                    "Customer/Sales",
+                                    "Customer/Sales/Time",
+                                    "Customer/Sales/Currency",
+                                    "Customer/Sales/SalesOrganization",
+                                    "Customer/Sales/SalesOrganization/Superordinate",
+                                    "Customer/Sales/Product",
+                                    "Customer/Sales/Product/Category",
+                                    "Customer/Sales/Product/Supplier",
+                                    "Customer/Sales/Product/OrderItems",
+                                    "Customer/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -600,8 +674,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -750,7 +837,25 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category",
+                                    "Products/OrderItems",
+                                    "Products/OrderItems/Order",
+                                    "Products/OrderItems/Order/Customer",
+                                    "Products/OrderItems/Order/Customer/Sales",
+                                    "Products/OrderItems/Currency",
+                                    "Products/OrderItems/Currency/Sales",
+                                    "Products/OrderItems/Currency/Sales/Time",
+                                    "Products/OrderItems/Currency/Sales/Customer",
+                                    "Products/OrderItems/Currency/Sales/SalesOrganization",
+                                    "Products/Sales",
+                                    "Products/Sales/Time",
+                                    "Products/Sales/Currency",
+                                    "Products/Sales/Customer",
+                                    "Products/Sales/Customer/Orders",
+                                    "Products/Sales/Customer/Orders/Items",
+                                    "Products/Sales/SalesOrganization",
+                                    "Products/Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -866,7 +971,25 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category",
+                                    "Products/OrderItems",
+                                    "Products/OrderItems/Order",
+                                    "Products/OrderItems/Order/Customer",
+                                    "Products/OrderItems/Order/Customer/Sales",
+                                    "Products/OrderItems/Currency",
+                                    "Products/OrderItems/Currency/Sales",
+                                    "Products/OrderItems/Currency/Sales/Time",
+                                    "Products/OrderItems/Currency/Sales/Customer",
+                                    "Products/OrderItems/Currency/Sales/SalesOrganization",
+                                    "Products/Sales",
+                                    "Products/Sales/Time",
+                                    "Products/Sales/Currency",
+                                    "Products/Sales/Customer",
+                                    "Products/Sales/Customer/Orders",
+                                    "Products/Sales/Customer/Orders/Items",
+                                    "Products/Sales/SalesOrganization",
+                                    "Products/Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -1045,7 +1168,28 @@
                                     "Category",
                                     "Supplier",
                                     "OrderItems",
-                                    "Sales"
+                                    "OrderItems/Order",
+                                    "OrderItems/Order/Customer",
+                                    "OrderItems/Order/Customer/Sales",
+                                    "OrderItems/Order/Customer/Sales/Time",
+                                    "OrderItems/Order/Customer/Sales/Currency",
+                                    "OrderItems/Order/Customer/Sales/SalesOrganization",
+                                    "OrderItems/Currency",
+                                    "OrderItems/Currency/Sales",
+                                    "OrderItems/Currency/Sales/Time",
+                                    "OrderItems/Currency/Sales/Customer",
+                                    "OrderItems/Currency/Sales/Customer/Orders",
+                                    "OrderItems/Currency/Sales/SalesOrganization",
+                                    "OrderItems/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -1215,7 +1359,28 @@
                                     "Category",
                                     "Supplier",
                                     "OrderItems",
-                                    "Sales"
+                                    "OrderItems/Order",
+                                    "OrderItems/Order/Customer",
+                                    "OrderItems/Order/Customer/Sales",
+                                    "OrderItems/Order/Customer/Sales/Time",
+                                    "OrderItems/Order/Customer/Sales/Currency",
+                                    "OrderItems/Order/Customer/Sales/SalesOrganization",
+                                    "OrderItems/Currency",
+                                    "OrderItems/Currency/Sales",
+                                    "OrderItems/Currency/Sales/Time",
+                                    "OrderItems/Currency/Sales/Customer",
+                                    "OrderItems/Currency/Sales/Customer/Orders",
+                                    "OrderItems/Currency/Sales/SalesOrganization",
+                                    "OrderItems/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -1339,7 +1504,28 @@
                                     "Category",
                                     "Supplier",
                                     "OrderItems",
-                                    "Sales"
+                                    "OrderItems/Order",
+                                    "OrderItems/Order/Customer",
+                                    "OrderItems/Order/Customer/Sales",
+                                    "OrderItems/Order/Customer/Sales/Time",
+                                    "OrderItems/Order/Customer/Sales/Currency",
+                                    "OrderItems/Order/Customer/Sales/SalesOrganization",
+                                    "OrderItems/Currency",
+                                    "OrderItems/Currency/Sales",
+                                    "OrderItems/Currency/Sales/Time",
+                                    "OrderItems/Currency/Sales/Customer",
+                                    "OrderItems/Currency/Sales/Customer/Orders",
+                                    "OrderItems/Currency/Sales/SalesOrganization",
+                                    "OrderItems/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -1452,7 +1638,25 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Supplier",
+                                    "Products/OrderItems",
+                                    "Products/OrderItems/Order",
+                                    "Products/OrderItems/Order/Customer",
+                                    "Products/OrderItems/Order/Customer/Sales",
+                                    "Products/OrderItems/Currency",
+                                    "Products/OrderItems/Currency/Sales",
+                                    "Products/OrderItems/Currency/Sales/Time",
+                                    "Products/OrderItems/Currency/Sales/Customer",
+                                    "Products/OrderItems/Currency/Sales/SalesOrganization",
+                                    "Products/Sales",
+                                    "Products/Sales/Time",
+                                    "Products/Sales/Currency",
+                                    "Products/Sales/Customer",
+                                    "Products/Sales/Customer/Orders",
+                                    "Products/Sales/Customer/Orders/Items",
+                                    "Products/Sales/SalesOrganization",
+                                    "Products/Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -1529,7 +1733,25 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Category",
+                                    "Products/OrderItems",
+                                    "Products/OrderItems/Order",
+                                    "Products/OrderItems/Order/Customer",
+                                    "Products/OrderItems/Order/Customer/Sales",
+                                    "Products/OrderItems/Currency",
+                                    "Products/OrderItems/Currency/Sales",
+                                    "Products/OrderItems/Currency/Sales/Time",
+                                    "Products/OrderItems/Currency/Sales/Customer",
+                                    "Products/OrderItems/Currency/Sales/SalesOrganization",
+                                    "Products/Sales",
+                                    "Products/Sales/Time",
+                                    "Products/Sales/Currency",
+                                    "Products/Sales/Customer",
+                                    "Products/Sales/Customer/Orders",
+                                    "Products/Sales/Customer/Orders/Items",
+                                    "Products/Sales/SalesOrganization",
+                                    "Products/Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -1647,8 +1869,35 @@
                                 "enum": [
                                     "*",
                                     "Order",
+                                    "Order/Customer",
+                                    "Order/Customer/Sales",
+                                    "Order/Customer/Sales/Time",
+                                    "Order/Customer/Sales/Currency",
+                                    "Order/Customer/Sales/SalesOrganization",
+                                    "Order/Customer/Sales/SalesOrganization/Superordinate",
+                                    "Order/Customer/Sales/Product",
+                                    "Order/Customer/Sales/Product/Category",
+                                    "Order/Customer/Sales/Product/Supplier",
                                     "Product",
-                                    "Currency"
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/Sales",
+                                    "Product/Sales/Time",
+                                    "Product/Sales/Currency",
+                                    "Product/Sales/Customer",
+                                    "Product/Sales/Customer/Orders",
+                                    "Product/Sales/SalesOrganization",
+                                    "Product/Sales/SalesOrganization/Superordinate",
+                                    "Currency",
+                                    "Currency/Sales",
+                                    "Currency/Sales/Time",
+                                    "Currency/Sales/Customer",
+                                    "Currency/Sales/Customer/Orders",
+                                    "Currency/Sales/SalesOrganization",
+                                    "Currency/Sales/SalesOrganization/Superordinate",
+                                    "Currency/Sales/Product",
+                                    "Currency/Sales/Product/Category",
+                                    "Currency/Sales/Product/Supplier"
                                 ]
                             }
                         }
@@ -1804,8 +2053,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -1952,7 +2214,35 @@
                                 "enum": [
                                     "*",
                                     "Items",
-                                    "Customer"
+                                    "Items/Product",
+                                    "Items/Product/Category",
+                                    "Items/Product/Supplier",
+                                    "Items/Product/Sales",
+                                    "Items/Product/Sales/Time",
+                                    "Items/Product/Sales/Currency",
+                                    "Items/Product/Sales/Customer",
+                                    "Items/Product/Sales/SalesOrganization",
+                                    "Items/Product/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency",
+                                    "Items/Currency/Sales",
+                                    "Items/Currency/Sales/Time",
+                                    "Items/Currency/Sales/Customer",
+                                    "Items/Currency/Sales/SalesOrganization",
+                                    "Items/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency/Sales/Product",
+                                    "Items/Currency/Sales/Product/Category",
+                                    "Items/Currency/Sales/Product/Supplier",
+                                    "Customer",
+                                    "Customer/Sales",
+                                    "Customer/Sales/Time",
+                                    "Customer/Sales/Currency",
+                                    "Customer/Sales/SalesOrganization",
+                                    "Customer/Sales/SalesOrganization/Superordinate",
+                                    "Customer/Sales/Product",
+                                    "Customer/Sales/Product/Category",
+                                    "Customer/Sales/Product/Supplier",
+                                    "Customer/Sales/Product/OrderItems",
+                                    "Customer/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -2069,7 +2359,35 @@
                                 "enum": [
                                     "*",
                                     "Items",
-                                    "Customer"
+                                    "Items/Product",
+                                    "Items/Product/Category",
+                                    "Items/Product/Supplier",
+                                    "Items/Product/Sales",
+                                    "Items/Product/Sales/Time",
+                                    "Items/Product/Sales/Currency",
+                                    "Items/Product/Sales/Customer",
+                                    "Items/Product/Sales/SalesOrganization",
+                                    "Items/Product/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency",
+                                    "Items/Currency/Sales",
+                                    "Items/Currency/Sales/Time",
+                                    "Items/Currency/Sales/Customer",
+                                    "Items/Currency/Sales/SalesOrganization",
+                                    "Items/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency/Sales/Product",
+                                    "Items/Currency/Sales/Product/Category",
+                                    "Items/Currency/Sales/Product/Supplier",
+                                    "Customer",
+                                    "Customer/Sales",
+                                    "Customer/Sales/Time",
+                                    "Customer/Sales/Currency",
+                                    "Customer/Sales/SalesOrganization",
+                                    "Customer/Sales/SalesOrganization/Superordinate",
+                                    "Customer/Sales/Product",
+                                    "Customer/Sales/Product/Category",
+                                    "Customer/Sales/Product/Supplier",
+                                    "Customer/Sales/Product/OrderItems",
+                                    "Customer/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -2226,8 +2544,35 @@
                                 "enum": [
                                     "*",
                                     "Order",
+                                    "Order/Customer",
+                                    "Order/Customer/Sales",
+                                    "Order/Customer/Sales/Time",
+                                    "Order/Customer/Sales/Currency",
+                                    "Order/Customer/Sales/SalesOrganization",
+                                    "Order/Customer/Sales/SalesOrganization/Superordinate",
+                                    "Order/Customer/Sales/Product",
+                                    "Order/Customer/Sales/Product/Category",
+                                    "Order/Customer/Sales/Product/Supplier",
                                     "Product",
-                                    "Currency"
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/Sales",
+                                    "Product/Sales/Time",
+                                    "Product/Sales/Currency",
+                                    "Product/Sales/Customer",
+                                    "Product/Sales/Customer/Orders",
+                                    "Product/Sales/SalesOrganization",
+                                    "Product/Sales/SalesOrganization/Superordinate",
+                                    "Currency",
+                                    "Currency/Sales",
+                                    "Currency/Sales/Time",
+                                    "Currency/Sales/Customer",
+                                    "Currency/Sales/Customer/Orders",
+                                    "Currency/Sales/SalesOrganization",
+                                    "Currency/Sales/SalesOrganization/Superordinate",
+                                    "Currency/Sales/Product",
+                                    "Currency/Sales/Product/Category",
+                                    "Currency/Sales/Product/Supplier"
                                 ]
                             }
                         }
@@ -2356,7 +2701,30 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Sales"
+                                    "Orders/Items",
+                                    "Orders/Items/Product",
+                                    "Orders/Items/Product/Category",
+                                    "Orders/Items/Product/Supplier",
+                                    "Orders/Items/Product/Sales",
+                                    "Orders/Items/Product/Sales/Time",
+                                    "Orders/Items/Product/Sales/Currency",
+                                    "Orders/Items/Product/Sales/SalesOrganization",
+                                    "Orders/Items/Currency",
+                                    "Orders/Items/Currency/Sales",
+                                    "Orders/Items/Currency/Sales/Time",
+                                    "Orders/Items/Currency/Sales/SalesOrganization",
+                                    "Orders/Items/Currency/Sales/Product",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -2460,7 +2828,25 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Supplier",
+                                    "Products/OrderItems",
+                                    "Products/OrderItems/Order",
+                                    "Products/OrderItems/Order/Customer",
+                                    "Products/OrderItems/Order/Customer/Sales",
+                                    "Products/OrderItems/Currency",
+                                    "Products/OrderItems/Currency/Sales",
+                                    "Products/OrderItems/Currency/Sales/Time",
+                                    "Products/OrderItems/Currency/Sales/Customer",
+                                    "Products/OrderItems/Currency/Sales/SalesOrganization",
+                                    "Products/Sales",
+                                    "Products/Sales/Time",
+                                    "Products/Sales/Currency",
+                                    "Products/Sales/Customer",
+                                    "Products/Sales/Customer/Orders",
+                                    "Products/Sales/Customer/Orders/Items",
+                                    "Products/Sales/SalesOrganization",
+                                    "Products/Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -2574,7 +2960,25 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Products"
+                                    "Products",
+                                    "Products/Supplier",
+                                    "Products/OrderItems",
+                                    "Products/OrderItems/Order",
+                                    "Products/OrderItems/Order/Customer",
+                                    "Products/OrderItems/Order/Customer/Sales",
+                                    "Products/OrderItems/Currency",
+                                    "Products/OrderItems/Currency/Sales",
+                                    "Products/OrderItems/Currency/Sales/Time",
+                                    "Products/OrderItems/Currency/Sales/Customer",
+                                    "Products/OrderItems/Currency/Sales/SalesOrganization",
+                                    "Products/Sales",
+                                    "Products/Sales/Time",
+                                    "Products/Sales/Currency",
+                                    "Products/Sales/Customer",
+                                    "Products/Sales/Customer/Orders",
+                                    "Products/Sales/Customer/Orders/Items",
+                                    "Products/Sales/SalesOrganization",
+                                    "Products/Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -2754,7 +3158,28 @@
                                     "Category",
                                     "Supplier",
                                     "OrderItems",
-                                    "Sales"
+                                    "OrderItems/Order",
+                                    "OrderItems/Order/Customer",
+                                    "OrderItems/Order/Customer/Sales",
+                                    "OrderItems/Order/Customer/Sales/Time",
+                                    "OrderItems/Order/Customer/Sales/Currency",
+                                    "OrderItems/Order/Customer/Sales/SalesOrganization",
+                                    "OrderItems/Currency",
+                                    "OrderItems/Currency/Sales",
+                                    "OrderItems/Currency/Sales/Time",
+                                    "OrderItems/Currency/Sales/Customer",
+                                    "OrderItems/Currency/Sales/Customer/Orders",
+                                    "OrderItems/Currency/Sales/SalesOrganization",
+                                    "OrderItems/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -2901,8 +3326,35 @@
                                 "enum": [
                                     "*",
                                     "Order",
+                                    "Order/Customer",
+                                    "Order/Customer/Sales",
+                                    "Order/Customer/Sales/Time",
+                                    "Order/Customer/Sales/Currency",
+                                    "Order/Customer/Sales/SalesOrganization",
+                                    "Order/Customer/Sales/SalesOrganization/Superordinate",
+                                    "Order/Customer/Sales/Product",
+                                    "Order/Customer/Sales/Product/Category",
+                                    "Order/Customer/Sales/Product/Supplier",
                                     "Product",
-                                    "Currency"
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/Sales",
+                                    "Product/Sales/Time",
+                                    "Product/Sales/Currency",
+                                    "Product/Sales/Customer",
+                                    "Product/Sales/Customer/Orders",
+                                    "Product/Sales/SalesOrganization",
+                                    "Product/Sales/SalesOrganization/Superordinate",
+                                    "Currency",
+                                    "Currency/Sales",
+                                    "Currency/Sales/Time",
+                                    "Currency/Sales/Customer",
+                                    "Currency/Sales/Customer/Orders",
+                                    "Currency/Sales/SalesOrganization",
+                                    "Currency/Sales/SalesOrganization/Superordinate",
+                                    "Currency/Sales/Product",
+                                    "Currency/Sales/Product/Category",
+                                    "Currency/Sales/Product/Supplier"
                                 ]
                             }
                         }
@@ -3026,8 +3478,35 @@
                                 "enum": [
                                     "*",
                                     "Order",
+                                    "Order/Customer",
+                                    "Order/Customer/Sales",
+                                    "Order/Customer/Sales/Time",
+                                    "Order/Customer/Sales/Currency",
+                                    "Order/Customer/Sales/SalesOrganization",
+                                    "Order/Customer/Sales/SalesOrganization/Superordinate",
+                                    "Order/Customer/Sales/Product",
+                                    "Order/Customer/Sales/Product/Category",
+                                    "Order/Customer/Sales/Product/Supplier",
                                     "Product",
-                                    "Currency"
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/Sales",
+                                    "Product/Sales/Time",
+                                    "Product/Sales/Currency",
+                                    "Product/Sales/Customer",
+                                    "Product/Sales/Customer/Orders",
+                                    "Product/Sales/SalesOrganization",
+                                    "Product/Sales/SalesOrganization/Superordinate",
+                                    "Currency",
+                                    "Currency/Sales",
+                                    "Currency/Sales/Time",
+                                    "Currency/Sales/Customer",
+                                    "Currency/Sales/Customer/Orders",
+                                    "Currency/Sales/SalesOrganization",
+                                    "Currency/Sales/SalesOrganization/Superordinate",
+                                    "Currency/Sales/Product",
+                                    "Currency/Sales/Product/Category",
+                                    "Currency/Sales/Product/Supplier"
                                 ]
                             }
                         }
@@ -3152,7 +3631,35 @@
                                 "enum": [
                                     "*",
                                     "Items",
-                                    "Customer"
+                                    "Items/Product",
+                                    "Items/Product/Category",
+                                    "Items/Product/Supplier",
+                                    "Items/Product/Sales",
+                                    "Items/Product/Sales/Time",
+                                    "Items/Product/Sales/Currency",
+                                    "Items/Product/Sales/Customer",
+                                    "Items/Product/Sales/SalesOrganization",
+                                    "Items/Product/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency",
+                                    "Items/Currency/Sales",
+                                    "Items/Currency/Sales/Time",
+                                    "Items/Currency/Sales/Customer",
+                                    "Items/Currency/Sales/SalesOrganization",
+                                    "Items/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Items/Currency/Sales/Product",
+                                    "Items/Currency/Sales/Product/Category",
+                                    "Items/Currency/Sales/Product/Supplier",
+                                    "Customer",
+                                    "Customer/Sales",
+                                    "Customer/Sales/Time",
+                                    "Customer/Sales/Currency",
+                                    "Customer/Sales/SalesOrganization",
+                                    "Customer/Sales/SalesOrganization/Superordinate",
+                                    "Customer/Sales/Product",
+                                    "Customer/Sales/Product/Category",
+                                    "Customer/Sales/Product/Supplier",
+                                    "Customer/Sales/Product/OrderItems",
+                                    "Customer/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -3245,7 +3752,28 @@
                                     "Category",
                                     "Supplier",
                                     "OrderItems",
-                                    "Sales"
+                                    "OrderItems/Order",
+                                    "OrderItems/Order/Customer",
+                                    "OrderItems/Order/Customer/Sales",
+                                    "OrderItems/Order/Customer/Sales/Time",
+                                    "OrderItems/Order/Customer/Sales/Currency",
+                                    "OrderItems/Order/Customer/Sales/SalesOrganization",
+                                    "OrderItems/Currency",
+                                    "OrderItems/Currency/Sales",
+                                    "OrderItems/Currency/Sales/Time",
+                                    "OrderItems/Currency/Sales/Customer",
+                                    "OrderItems/Currency/Sales/Customer/Orders",
+                                    "OrderItems/Currency/Sales/SalesOrganization",
+                                    "OrderItems/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -3328,7 +3856,20 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer"
                                 ]
                             }
                         }
@@ -3429,8 +3970,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -3545,8 +4099,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -3659,7 +4226,22 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -3733,7 +4315,20 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer"
                                 ]
                             }
                         }
@@ -3820,7 +4415,30 @@
                                 "enum": [
                                     "*",
                                     "Orders",
-                                    "Sales"
+                                    "Orders/Items",
+                                    "Orders/Items/Product",
+                                    "Orders/Items/Product/Category",
+                                    "Orders/Items/Product/Supplier",
+                                    "Orders/Items/Product/Sales",
+                                    "Orders/Items/Product/Sales/Time",
+                                    "Orders/Items/Product/Sales/Currency",
+                                    "Orders/Items/Product/Sales/SalesOrganization",
+                                    "Orders/Items/Currency",
+                                    "Orders/Items/Currency/Sales",
+                                    "Orders/Items/Currency/Sales/Time",
+                                    "Orders/Items/Currency/Sales/SalesOrganization",
+                                    "Orders/Items/Currency/Sales/Product",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -3893,7 +4511,33 @@
                                 "enum": [
                                     "*",
                                     "Sales",
-                                    "Superordinate"
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency",
+                                    "Superordinate",
+                                    "Superordinate/Sales",
+                                    "Superordinate/Sales/Time",
+                                    "Superordinate/Sales/Currency",
+                                    "Superordinate/Sales/Customer",
+                                    "Superordinate/Sales/Customer/Orders",
+                                    "Superordinate/Sales/Customer/Orders/Items",
+                                    "Superordinate/Sales/Product",
+                                    "Superordinate/Sales/Product/Category",
+                                    "Superordinate/Sales/Product/Supplier",
+                                    "Superordinate/Sales/Product/OrderItems",
+                                    "Superordinate/Sales/Product/OrderItems/Order",
+                                    "Superordinate/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -3977,7 +4621,28 @@
                                     "Category",
                                     "Supplier",
                                     "OrderItems",
-                                    "Sales"
+                                    "OrderItems/Order",
+                                    "OrderItems/Order/Customer",
+                                    "OrderItems/Order/Customer/Sales",
+                                    "OrderItems/Order/Customer/Sales/Time",
+                                    "OrderItems/Order/Customer/Sales/Currency",
+                                    "OrderItems/Order/Customer/Sales/SalesOrganization",
+                                    "OrderItems/Currency",
+                                    "OrderItems/Currency/Sales",
+                                    "OrderItems/Currency/Sales/Time",
+                                    "OrderItems/Currency/Sales/Customer",
+                                    "OrderItems/Currency/Sales/Customer/Orders",
+                                    "OrderItems/Currency/Sales/SalesOrganization",
+                                    "OrderItems/Currency/Sales/SalesOrganization/Superordinate",
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate"
                                 ]
                             }
                         }
@@ -4082,7 +4747,9 @@
                                 "enum": [
                                     "*",
                                     "Manager",
-                                    "LeaveRequests"
+                                    "Manager/Inbox",
+                                    "LeaveRequests",
+                                    "LeaveRequests/Manager"
                                 ]
                             }
                         }
@@ -4196,7 +4863,9 @@
                                 "enum": [
                                     "*",
                                     "Manager",
-                                    "LeaveRequests"
+                                    "Manager/Inbox",
+                                    "LeaveRequests",
+                                    "LeaveRequests/Manager"
                                 ]
                             }
                         }
@@ -4289,7 +4958,9 @@
                                 "enum": [
                                     "*",
                                     "Employees",
-                                    "Inbox"
+                                    "Employees/LeaveRequests",
+                                    "Inbox",
+                                    "Inbox/Employee"
                                 ]
                             }
                         }
@@ -4397,7 +5068,9 @@
                                 "enum": [
                                     "*",
                                     "Manager",
-                                    "Employee"
+                                    "Manager/Employees",
+                                    "Employee",
+                                    "Employee/Manager"
                                 ]
                             }
                         }
@@ -4535,7 +5208,9 @@
                                 "enum": [
                                     "*",
                                     "Manager",
-                                    "Employee"
+                                    "Manager/Employees",
+                                    "Employee",
+                                    "Employee/Manager"
                                 ]
                             }
                         }
@@ -4647,7 +5322,9 @@
                                 "enum": [
                                     "*",
                                     "Manager",
-                                    "Employee"
+                                    "Manager/Employees",
+                                    "Employee",
+                                    "Employee/Manager"
                                 ]
                             }
                         }
@@ -4814,7 +5491,9 @@
                                 "enum": [
                                     "*",
                                     "Employees",
-                                    "Inbox"
+                                    "Employees/LeaveRequests",
+                                    "Inbox",
+                                    "Inbox/Employee"
                                 ]
                             }
                         }
@@ -4889,7 +5568,9 @@
                                 "enum": [
                                     "*",
                                     "Manager",
-                                    "LeaveRequests"
+                                    "Manager/Inbox",
+                                    "LeaveRequests",
+                                    "LeaveRequests/Manager"
                                 ]
                             }
                         }
@@ -5212,7 +5893,22 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -5327,7 +6023,22 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -5481,8 +6192,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -5623,7 +6347,33 @@
                                 "enum": [
                                     "*",
                                     "Sales",
-                                    "Superordinate"
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency",
+                                    "Superordinate",
+                                    "Superordinate/Sales",
+                                    "Superordinate/Sales/Time",
+                                    "Superordinate/Sales/Currency",
+                                    "Superordinate/Sales/Customer",
+                                    "Superordinate/Sales/Customer/Orders",
+                                    "Superordinate/Sales/Customer/Orders/Items",
+                                    "Superordinate/Sales/Product",
+                                    "Superordinate/Sales/Product/Category",
+                                    "Superordinate/Sales/Product/Supplier",
+                                    "Superordinate/Sales/Product/OrderItems",
+                                    "Superordinate/Sales/Product/OrderItems/Order",
+                                    "Superordinate/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -5735,7 +6485,33 @@
                                 "enum": [
                                     "*",
                                     "Sales",
-                                    "Superordinate"
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency",
+                                    "Superordinate",
+                                    "Superordinate/Sales",
+                                    "Superordinate/Sales/Time",
+                                    "Superordinate/Sales/Currency",
+                                    "Superordinate/Sales/Customer",
+                                    "Superordinate/Sales/Customer/Orders",
+                                    "Superordinate/Sales/Customer/Orders/Items",
+                                    "Superordinate/Sales/Product",
+                                    "Superordinate/Sales/Product/Category",
+                                    "Superordinate/Sales/Product/Supplier",
+                                    "Superordinate/Sales/Product/OrderItems",
+                                    "Superordinate/Sales/Product/OrderItems/Order",
+                                    "Superordinate/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -5887,8 +6663,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -6001,7 +6790,33 @@
                                 "enum": [
                                     "*",
                                     "Sales",
-                                    "Superordinate"
+                                    "Sales/Time",
+                                    "Sales/Currency",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/Customer/Orders/Items/Currency",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer",
+                                    "Sales/Product/OrderItems/Currency",
+                                    "Superordinate",
+                                    "Superordinate/Sales",
+                                    "Superordinate/Sales/Time",
+                                    "Superordinate/Sales/Currency",
+                                    "Superordinate/Sales/Customer",
+                                    "Superordinate/Sales/Customer/Orders",
+                                    "Superordinate/Sales/Customer/Orders/Items",
+                                    "Superordinate/Sales/Product",
+                                    "Superordinate/Sales/Product/Category",
+                                    "Superordinate/Sales/Product/Supplier",
+                                    "Superordinate/Sales/Product/OrderItems",
+                                    "Superordinate/Sales/Product/OrderItems/Order",
+                                    "Superordinate/Sales/Product/OrderItems/Currency"
                                 ]
                             }
                         }
@@ -6105,7 +6920,20 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer"
                                 ]
                             }
                         }
@@ -6219,7 +7047,20 @@
                                 "type": "string",
                                 "enum": [
                                     "*",
-                                    "Sales"
+                                    "Sales",
+                                    "Sales/Time",
+                                    "Sales/Customer",
+                                    "Sales/Customer/Orders",
+                                    "Sales/Customer/Orders/Items",
+                                    "Sales/Customer/Orders/Items/Product",
+                                    "Sales/SalesOrganization",
+                                    "Sales/SalesOrganization/Superordinate",
+                                    "Sales/Product",
+                                    "Sales/Product/Category",
+                                    "Sales/Product/Supplier",
+                                    "Sales/Product/OrderItems",
+                                    "Sales/Product/OrderItems/Order",
+                                    "Sales/Product/OrderItems/Order/Customer"
                                 ]
                             }
                         }
@@ -6372,8 +7213,21 @@
                                     "Time",
                                     "Currency",
                                     "Customer",
+                                    "Customer/Orders",
+                                    "Customer/Orders/Items",
+                                    "Customer/Orders/Items/Product",
+                                    "Customer/Orders/Items/Product/Category",
+                                    "Customer/Orders/Items/Product/Supplier",
+                                    "Customer/Orders/Items/Currency",
                                     "SalesOrganization",
-                                    "Product"
+                                    "SalesOrganization/Superordinate",
+                                    "Product",
+                                    "Product/Category",
+                                    "Product/Supplier",
+                                    "Product/OrderItems",
+                                    "Product/OrderItems/Order",
+                                    "Product/OrderItems/Order/Customer",
+                                    "Product/OrderItems/Currency"
                                 ]
                             }
                         }

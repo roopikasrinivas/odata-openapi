@@ -101,7 +101,15 @@
                                 "enum": [
                                     "*",
                                     "One",
-                                    "Many"
+                                    "One/One",
+                                    "One/Many",
+                                    "One/ManyReadListOnly",
+                                    "One/ManyReadByKeyOnly",
+                                    "Many",
+                                    "Many/One",
+                                    "Many/Many",
+                                    "Many/ManyReadListOnly",
+                                    "Many/ManyReadByKeyOnly"
                                 ]
                             }
                         }
@@ -255,7 +263,15 @@
                                 "enum": [
                                     "*",
                                     "One",
-                                    "Many"
+                                    "One/One",
+                                    "One/Many",
+                                    "One/ManyReadListOnly",
+                                    "One/ManyReadByKeyOnly",
+                                    "Many",
+                                    "Many/One",
+                                    "Many/Many",
+                                    "Many/ManyReadListOnly",
+                                    "Many/ManyReadByKeyOnly"
                                 ]
                             }
                         }
@@ -1911,7 +1927,15 @@
                                 "enum": [
                                     "*",
                                     "One",
-                                    "Many"
+                                    "One/One",
+                                    "One/Many",
+                                    "One/ManyReadListOnly",
+                                    "One/ManyReadByKeyOnly",
+                                    "Many",
+                                    "Many/One",
+                                    "Many/Many",
+                                    "Many/ManyReadListOnly",
+                                    "Many/ManyReadByKeyOnly"
                                 ]
                             }
                         }
