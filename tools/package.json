@@ -13,7 +13,7 @@
     "odata-openapi": "transform.js"
   },
   "dependencies": {
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "xslt4node": "^0.3.2"
   },
   "scripts": {
