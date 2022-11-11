@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "c8": "^7.3.5",
-    "mocha": "^8.2.1"
+    "mocha": "^10.1.0"
   },
   "scripts": {
     "build": "node lib/transform.js",
